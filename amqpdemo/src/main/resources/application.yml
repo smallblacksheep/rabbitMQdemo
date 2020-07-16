@@ -1,0 +1,11 @@
+server:
+  port: 9898
+spring:
+  application:
+    name: amqpdemo
+  rabbitmq:
+    host: 192.168.116.130
+    username: shenyinzhao
+    password: 123456
+    virtual-host: /mqtest
+    port: 5672
